@@ -94,6 +94,7 @@ html {
 body {
   font-family: 'News Cycle', sans-serif;
   font-size: 1em;
+  font-weight: bold;
 }
 
 ul,
@@ -154,7 +155,56 @@ footer {
 
 /* ------------------------- Header Section --------------------------------- */
 
+header .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background: #ffffff;
+  padding: 0;
+  width: 100%;
+}
 
+header .three-bars {
+  display: flex;
+  justify-content: center;
+  color: #344a5f;
+  font-size: 2em;
+}
+
+/*
+
+header .logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 50%;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-flow: row wrap;
+  margin: 0;
+  width: 50%;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  font-size: 1.125em;
+  font-weight: bold;
+  padding: 20px;
+  margin: 0;
+  text-transform: uppercase;
+  width: 100%;
+  }
+
+*/
 
 /* ------------------------ Main Section ---------------------------------- */
 
@@ -164,7 +214,22 @@ footer {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  min-height: 500px;
+  min-height:500px;
+  width: 100%;
+}
+
+.hero-area h1 {
+  color: #ffffff;
+  font-size: 3em;
+  font-weight: bold;
+  padding: 75px 0;
+}
+
+.overlay {
+  background: rgba(52, 74, 95, 0.7);
+  overflow: hidden;
+  height: 100%;
+  z-index: -2;
 }
 
 .portfolio {
