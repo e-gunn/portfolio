@@ -139,7 +139,7 @@ figure {
 }
 
 .content-wrapper {
-  width: 90%;
+  width: 100%;
 }
 
 header,
@@ -229,7 +229,6 @@ header nav ul {
   background: rgba(52, 74, 95, 0.7);
   overflow: hidden;
   height: 100%;
-  z-index: -2;
 }
 
 .portfolio {
