@@ -236,10 +236,56 @@ header nav ul {
 }
 
 .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  background-color: #5c93ce;
+  padding: 40px 0;
+}
 
+.about h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  color: #ffffff;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.about p {
+  color: #ffffff;
+}
+
+.about figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.about img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  border: 10px solid #ffffff;
+  margin: 0 200px;
 }
 
 .skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  color: #344a5f;
+  padding: 10px 0;
+  width: 100%;
+}
+
+.skills h2 {
   display: flex;
   justify-content: center;
   align-items: center;
