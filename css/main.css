@@ -116,6 +116,7 @@ h1 {
   margin: 0;
 }
 
+h2,
 h3 {
   color: #344a5f;
   font-family: 'Poppins', sans-serif;
@@ -222,7 +223,7 @@ header nav ul {
   color: #ffffff;
   font-size: 3em;
   font-weight: bold;
-  padding: 75px 0;
+  padding: 35px;
 }
 
 .overlay {
@@ -232,7 +233,20 @@ header nav ul {
 }
 
 .portfolio {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
+.portfolio h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  color: #344a5f;
+  padding: 10px 0;
+  width: 100%;
 }
 
 .about {
@@ -241,7 +255,6 @@ header nav ul {
   align-items: center;
   flex-flow: row wrap;
   background-color: #5c93ce;
-  padding: 40px 0;
 }
 
 .about h2 {
@@ -280,9 +293,7 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  color: #344a5f;
   padding: 10px 0;
-  width: 100%;
 }
 
 .skills h2 {
@@ -300,7 +311,18 @@ header nav ul {
   justify-content: space-around;
   align-items: center;
   color: #344a5f;
-  width: 100%;
+  width: 50%;
+}
+
+.skills i {
+  font-size: 3.75em;
+  margin-bottom: 20px;
+  padding-top: 20px;
+}
+
+.skills-item-description {
+  padding: 20px 60px;
+  text-align: center;
 }
 
 /* ------------------------ Footer Section ---------------------------------- */
@@ -342,10 +364,12 @@ footer .social-icons p {
 }
 
 footer .social-icons p i {
+  color: #ffffff;
   font-size: 1.3125em;
 }
 
 footer .copyright {
+  color: #ffffff;
   margin: 20px 0;
   text-align: center;
 }
