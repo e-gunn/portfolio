@@ -33,23 +33,21 @@
 
   <header>
     <div class="content-wrapper">
-      <div class="three-bars">
-        <a href=""><i class="fas fa-bars"></i></a>
-      <!---
       <div class="logo">
-        <a href="index.html">EG</a>
+        <a href="#home"><i class="fas fa-code"></i></a>
       </div>
-      <div>
-        <nav>
+      <nav>
+        <a href="javascript:void(0);" class="three-bars" onClick="showLinks()">
+          <i class="fas fa-bars"></i>
+        </a>
+        <div id="myLinks">
           <ul>
             <li><a href="#portfolio">Portfolio</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-        </nav>
-      </div>
-      --->
-      </div>
+        </div>
+      </nav>
     </div>
   </header>
 
@@ -58,7 +56,8 @@
     <section class="hero-area">
       <div class="content-wrapper">
         <div class="overlay">
-          <h1>Hi, I'm Liz.</h1>
+          <h1>Hi, I'm Liz</h1>
+          <p>a web developer</p>
         </div>
       </div>
     </section>
@@ -116,7 +115,7 @@
                 <P>CSS3</P>
               </div>
             </div>
-            <p>Rouge Pickings is a one-page responsive website built for a small business with HTML5 and CSS3. (Skillcrush Project)</p>
+            <p>Rouge Pickings is a one-page responsive website built for a small business with HTML5 and CSS3. This site was originally build desktop first, then converted to mobile first and made fully responsive. (Skillcrush Project)</p>
             <div class="project-btn">
               <a href="https://e-gunn.github.io/rouge-responsive/" target="_blank"><i class="fas fa-desktop"></i>Website</a>
               <a href="https://github.com/e-gunn/rouge-responsive" target="_blank"><i class="fas fa-code-branch"></i>GitHub</a>
@@ -130,7 +129,7 @@
       <div class"content-wrapper">
         <h2>About Me</h2>
         <article>
-          <div>
+          <div class="about-description">
             <p>Elizabeth is a self-taught front-end developer currently based in Nevada, USA. In her free time she enjoys running, road trips, and spending time with her dogs.</p>
           </div>
           <figure>
@@ -204,7 +203,7 @@
         </div>
       </div>
       <div class="copyright">
-        <p>&#169; Elizabeth Gunn 2020</p>
+        <p>Copyright &#169; 2020 All Rights Reserved</p>
       </div>
     </div>
   </footer>

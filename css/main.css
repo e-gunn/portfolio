@@ -158,7 +158,7 @@ footer {
 
 header .content-wrapper {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   background: #ffffff;
@@ -166,21 +166,16 @@ header .content-wrapper {
   width: 100%;
 }
 
-header .three-bars {
-  display: flex;
-  justify-content: center;
-  color: #344a5f;
-  font-size: 2em;
-}
-
-/*
-
 header .logo {
   display: flex;
   justify-content: flex-start;
-  align-items: center;
-  flex-flow: row wrap;
+  color: #344a5f;
+  font-size: 2em;
   width: 50%;
+}
+
+header .logo i {
+  padding: 10px 20px;
 }
 
 header nav {
@@ -192,11 +187,19 @@ header nav {
   width: 50%;
 }
 
-header nav ul {
+header nav .three-bars {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
+  justify-content: flex-end;
+  color: #344a5f;
+  font-size: 2em;
+  width: 100%;
+}
+
+header nav #myLinks {
+  display: none;
+}
+
+header nav ul {
   font-size: 1.125em;
   font-weight: bold;
   padding: 20px;
@@ -205,7 +208,16 @@ header nav ul {
   width: 100%;
   }
 
-*/
+  header nav a {
+    padding: 20px;
+  }
+
+  .three-bars i:hover {
+    background-color: #344a5f;
+    border-radius: 5px;
+    color: #ffffff;
+    padding: 10px;
+  }
 
 /* ------------------------ Main Section ---------------------------------- */
 
@@ -223,7 +235,14 @@ header nav ul {
   color: #ffffff;
   font-size: 3em;
   font-weight: bold;
-  padding: 35px;
+  padding: 30px 0 0 20px;
+}
+
+.hero-area p {
+  color: #ffffff;
+  font-size: 2em;
+  padding: 0 20px;
+  margin: 0;
 }
 
 .overlay {
@@ -248,6 +267,12 @@ header nav ul {
   padding: 10px 0;
   width: 100%;
 }
+
+/*
+.button {
+  box-shadow: 10px 10px 8px #888888;
+}
+*/
 
 .about {
   display: flex;
@@ -284,8 +309,17 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 10px solid #ffffff;
-  margin: 0 200px;
+  border: 5px solid #ffffff;
+  margin: 20px;
+  max-width: 300px;
+}
+
+.about-description {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
 }
 
 .skills {
@@ -293,7 +327,7 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  padding: 10px 0;
+  padding: 0;
 }
 
 .skills h2 {
@@ -310,18 +344,23 @@ header nav ul {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  flex-flow: row wrap;
   color: #344a5f;
-  width: 50%;
+  margin: 0;
+  width: 45%;
+}
+
+.skills-item p {
+  margin: 0;
 }
 
 .skills i {
   font-size: 3.75em;
-  margin-bottom: 20px;
   padding-top: 20px;
 }
 
 .skills-item-description {
-  padding: 20px 60px;
+  padding: 20px;
   text-align: center;
 }
 
@@ -337,6 +376,15 @@ footer .content-wrapper {
 }
 
 footer .contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px 0;
+  width: 100%;
+}
+
+footer .contact h2 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -357,10 +405,11 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #5c93ce;
+  background-color: #344a5f;
   border-radius: 50%;
   height: 40px;
   width: 40px;
+  border: 1px solid #ffffff;
 }
 
 footer .social-icons p i {
@@ -368,10 +417,11 @@ footer .social-icons p i {
   font-size: 1.3125em;
 }
 
-footer .copyright {
+footer .copyright p {
   color: #ffffff;
   margin: 20px 0;
   text-align: center;
+  width: 100%;
 }
 
 /* ==========================================================================
@@ -468,6 +518,22 @@ footer .copyright {
 
 @media only screen and (min-width: 1200px) {
      /* desktop styles here */
+
+ header nav .three-bars {
+   display: none;
+  }
+
+ header nav #myLinks {
+   display: block;
+  }
+
+ header nav ul {
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   flex-flow: row wrap;
+  }
+
 
 /* ==========================================================================
    Print styles.
