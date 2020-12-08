@@ -120,14 +120,14 @@ h2,
 h3 {
   color: #344a5f;
   font-family: 'Poppins', sans-serif;
-  font-size: 1.125em;
+  font-size: 2.25em;
   font-weight: 500;
   margin: 20px 0;
 }
 
 p {
   color: #344a5f;
-  font-size: 0.875em;
+  font-size: 1em;
   line-height: 1.285;
 }
 
@@ -259,20 +259,72 @@ header nav ul {
 }
 
 .portfolio h2 {
+  color: #344a5f;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%;
+}
+
+.portfolio h3 {
+  font-size: 1.75em;
+  text-align: center;
+}
+
+.portfolio p {
+  text-align: center;
+}
+
+.project {
+  border: 1px solid #344a5f;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 25px;
+  margin: 25px;
+}
+
+.project-tech {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  color: #344a5f;
-  padding: 10px 0;
   width: 100%;
 }
 
-/*
-.button {
-  box-shadow: 10px 10px 8px #888888;
+.tech {
+  background-color: #344a5f;
+  padding: 5px;
+  margin: 10px;
 }
-*/
+
+.tech p {
+  color: #ffffff;
+  margin: 2px;
+}
+
+.project-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+.button {
+  background-color: #5c93ce;
+  border-radius: 66px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  width: 35%;
+}
+
+.button a {
+  color: #ffffff;
+}
+
+.button i {
+  padding: 5px;
+}
 
 .about {
   display: flex;
@@ -283,17 +335,10 @@ header nav ul {
 }
 
 .about h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   color: #ffffff;
   padding: 10px 0;
+  text-align: center;
   width: 100%;
-}
-
-.about p {
-  color: #ffffff;
 }
 
 .about figure {
@@ -319,7 +364,15 @@ header nav ul {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
+  padding: 0 20px;
+  margin: 0 20px;
+  text-align: center;
+  width: 75%;
+}
+
+.about-description p {
+  color: #ffffff;
+  line-height: 1.5;
 }
 
 .skills {
@@ -328,30 +381,23 @@ header nav ul {
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
+  margin: 0;
 }
 
 .skills h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   color: #344a5f;
   padding: 10px 0;
+  text-align: center;
   width: 100%;
 }
 
 .skills-item {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   color: #344a5f;
-  margin: 0;
-  width: 45%;
-}
-
-.skills-item p {
-  margin: 0;
+  width: 50%;
 }
 
 .skills i {
@@ -385,12 +431,9 @@ footer .contact {
 }
 
 footer .contact h2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
   color: #ffffff;
   padding: 10px 0;
+  text-align: center;
   width: 100%;
 }
 
