@@ -258,6 +258,13 @@ header nav ul {
   flex-flow: row wrap;
 }
 
+.portfolio .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .portfolio h2 {
   color: #344a5f;
   padding: 10px 0;
@@ -275,6 +282,10 @@ header nav ul {
 }
 
 .project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   border: 1px solid #344a5f;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -291,6 +302,10 @@ header nav ul {
 }
 
 .tech {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
   background-color: #344a5f;
   padding: 5px;
   margin: 10px;
@@ -334,6 +349,13 @@ header nav ul {
   background-color: #5c93ce;
 }
 
+.about .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .about h2 {
   color: #ffffff;
   padding: 10px 0;
@@ -341,22 +363,12 @@ header nav ul {
   width: 100%;
 }
 
-.about figure {
+.about-item {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  width: 100%;
-}
-
-.about img {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  border: 5px solid #ffffff;
-  margin: 20px;
-  max-width: 300px;
+  padding-bottom: 40px;
 }
 
 .about-description {
@@ -375,13 +387,38 @@ header nav ul {
   line-height: 1.5;
 }
 
+.about-divider {
+  display: none;
+}
+
+.about figure {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  width: 100%;
+}
+
+.about img {
+  border: 5px solid #ffffff;
+  margin: 20px;
+  max-width: 300px;
+}
+
 .skills {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
   padding: 0;
-  margin: 0;
+  margin: 0 20px 30px 20px;
+}
+
+.skills .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .skills h2 {
@@ -397,16 +434,18 @@ header nav ul {
   align-items: center;
   flex-flow: row wrap;
   color: #344a5f;
+  padding: 10px 0;
   width: 50%;
 }
 
 .skills i {
   font-size: 3.75em;
-  padding-top: 20px;
+  padding: 0 50px;
 }
 
 .skills-item-description {
-  padding: 20px;
+  padding: 0 10px;
+  margin: 0;
   text-align: center;
 }
 
@@ -558,6 +597,57 @@ footer .copyright p {
 @media only screen and (min-width: 768px) {
      /* tablet styles here */
 
+.hero-area h1 {
+  font-size: 4em;
+ }
+
+.hero-area p {
+  font-size: 3em;
+ }
+
+ .project {
+   padding: 50px;
+   margin: 50px;
+ }
+
+ .tech p {
+   font-size: 1.75em;
+ }
+
+ .tech-description p {
+   padding: 0 50px;
+ }
+
+ .about-description {
+   width: 30%;
+ }
+
+ .about-description p {
+   font-size: 1.25em;
+   line-height: 3;
+ }
+
+ .about-divider {
+   border-left: 1px solid #ffffff;
+ }
+
+ .about figure {
+   width: 50%;
+ }
+
+ .skills-item {
+   margin-bottom: 20px;
+   width: 33%;
+ }
+
+ .skills-item-description {
+   padding: 0 40px;
+ }
+
+ footer .social-icons {
+   width: 60%;
+ }
+
 
 @media only screen and (min-width: 1200px) {
      /* desktop styles here */
@@ -577,6 +667,21 @@ footer .copyright p {
    flex-flow: row wrap;
   }
 
+  .hero-area h1 {
+    font-size: 5em;
+   }
+
+  .hero-area p {
+    font-size: 4em;
+   }
+
+   .project {
+     width: 50%;
+   }
+
+  .skills-item {
+     width: 16%;
+  }
 
 /* ==========================================================================
    Print styles.
