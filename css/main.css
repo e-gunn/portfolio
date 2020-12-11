@@ -219,6 +219,18 @@ header nav ul {
     padding: 10px;
   }
 
+/*
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 60px;
+  }
+*/
+
 /* ------------------------ Main Section ---------------------------------- */
 
 .hero-area {
@@ -704,6 +716,10 @@ footer .copyright p {
 
    .about figure {
      border-left: 2px solid #ffffff;
+   }
+
+   .about-description p {
+     font-size: 1.65em;
    }
 
   .skills-item {
