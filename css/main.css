@@ -502,23 +502,24 @@ nav {
   max-width: 60px;
 }
 
-/* ------------------------ Footer/contact Section ---------------------------------- */
-
-footer .content-wrapper {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: row wrap;
-  padding: 0;
-  width: 100%;
-}
+/* ------------------------ Contact Section ---------------------------------- */
 
 .contact {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
+  background: #344a5f;
   padding: 10px 0;
+  width: 100%;
+}
+
+.contact .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 0;
   width: 100%;
 }
 
@@ -611,6 +612,15 @@ footer .content-wrapper {
   background: #fff;
   color: #5c93ce;
   transition: 0.5s;
+}
+
+/* --------------------- footer ----------------------*/
+
+footer .content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
 }
 
 .social-icons {
