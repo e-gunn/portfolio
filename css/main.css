@@ -389,6 +389,11 @@ nav {
   padding: 5px;
 }
 
+.button:hover {
+  background: #344a5f;
+  transition: 0.5s;
+}
+
 .skills {
   display: flex;
   justify-content: center;
