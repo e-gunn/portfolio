@@ -195,6 +195,7 @@ nav {
 
 .logo i:hover {
   color: #5c93ce;
+  cursor: pointer;
   transition: 0.5s;
 }
 
@@ -579,7 +580,7 @@ nav {
 .form input {
   background: #344a5f;
   border: 1px solid #fff;
-  border-radius: 12px;
+  border-radius: 5px;
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -588,7 +589,7 @@ nav {
 .form textarea {
   background: #344a5f;
   border: 1px solid #fff;
-  border-radius: 12px;
+  border-radius: 5px;
   color: #fff;
   padding: 10px;
   width: 100%;
@@ -604,7 +605,7 @@ nav {
 .form button {
   background: #5c93ce;
   border: 1px solid #fff;
-  border-radius: 12px;
+  border-radius: 5px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   color: #fff;
   padding: 10px;
@@ -620,6 +621,7 @@ nav {
 .form button:hover {
   background: #fff;
   color: #5c93ce;
+  cursor: pointer;
   transition: 0.5s;
 }
 
