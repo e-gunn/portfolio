@@ -376,7 +376,7 @@ nav {
   flex-flow: row wrap;
 }
 
-.button {
+.project-btn button {
   background-color: #5c93ce;
   border-radius: 66px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
@@ -386,15 +386,15 @@ nav {
   width: 35%;
 }
 
-.button a {
+button a {
   color: #fff;
 }
 
-.button i {
+button i {
   padding: 5px;
 }
 
-.button:hover {
+button:hover {
   background: #344a5f;
   transition: 0.5s;
 }
