@@ -92,7 +92,7 @@ COLOR PALETTE
 link to the color source
 #fff - white
 #5c93ce - light blue
-#344a5f - dark blue 
+#344a5f - dark blue
 */
 
 
@@ -308,8 +308,8 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border-top: 5px solid #fff;
-  background: #344a5f;
+  border-top: 5px solid #344a5f;
+  background: #fff;
 }
 
 .portfolio .content-wrapper {
@@ -320,20 +320,20 @@ nav {
 }
 
 .portfolio h2 {
-  color: #fff;
+  color: #344a5f;
   padding: 40px 0;
   text-align: center;
   width: 100%;
 }
 
 .portfolio h3 {
-  color: #fff;
+  color: #344a5f;
   font-size: 1.75em;
   text-align: center;
 }
 
 .portfolio p {
-  color: #fff;
+  color: #344a5f;
   text-align: center;
 }
 
@@ -342,7 +342,7 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  border: 1px solid #fff;
+  border: 1px solid #344a5f;
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 25px;
@@ -362,14 +362,14 @@ nav {
   justify-content: center;
   align-items: center;
   flex-flow: row wrap;
-  background-color: #fff;
+  background-color: #344a5f;
   border-radius: 10px;
   padding: 5px;
   margin: 10px;
 }
 
 .tech p {
-  color: #344a5f;
+  color: #fff;
   margin: 2px;
 }
 
