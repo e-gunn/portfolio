@@ -874,17 +874,17 @@ nav a {
   font-size: 4em;
  }
 
- .magic {
+ .heart {
    display: flex;
    flex-flow: row wrap;
  }
 
- .unplugged {
+ .magic {
    display: flex;
    flex-flow: row-reverse;
  }
 
- .rouge {
+ .unplugged {
    display: flex;
    flex-flow: row wrap;
  }
