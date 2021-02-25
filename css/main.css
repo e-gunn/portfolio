@@ -879,7 +879,7 @@ nav a {
    flex-flow: row wrap;
  }
 
- .magic {
+ .election {
    display: flex;
    flex-flow: row-reverse;
  }
@@ -887,6 +887,11 @@ nav a {
  .unplugged {
    display: flex;
    flex-flow: row wrap;
+ }
+
+ .magic {
+   display: flex;
+   flex-flow: row-reverse;
  }
 
  .project img {
