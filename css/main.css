@@ -199,12 +199,28 @@ nav {
 .logo {
   display: flex;
   justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
   color: #344a5f;
   font-size: 2em;
 }
 
+.logo a {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
 .logo i {
   padding: 20px;
+  padding-right: 10px;
+}
+
+.logo h6 {
+  font-family: 'News Cycle' sans-serif;
+  font-size: 0.4em;
+  text-transform: uppercase;
 }
 
 .logo i:hover {
@@ -848,6 +864,14 @@ nav a {
 
 .content-wrapper {
   max-width: 1400px;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo h6 {
+  font-size: 0.5em;
 }
 
 .hamburger-btn {
