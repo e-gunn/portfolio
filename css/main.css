@@ -220,10 +220,12 @@ nav {
 .logo h6 {
   font-family: 'News Cycle' sans-serif;
   font-size: 0.4em;
+  margin: 0;
   text-transform: uppercase;
 }
 
-.logo i:hover {
+.logo i:hover,
+.logo h6:hover {
   color: #5c93ce;
   cursor: pointer;
   transition: 0.5s;
