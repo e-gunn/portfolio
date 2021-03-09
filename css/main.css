@@ -333,6 +333,7 @@ nav {
   flex-flow: row wrap;
   border-top: 5px solid #344a5f;
   background: #fff;
+  padding-top: 20px;
 }
 
 .portfolio .content-wrapper {
@@ -489,6 +490,7 @@ button:hover {
   background-color: #5c93ce;
   border-top: 5px solid #344a5f;
   border-bottom: 5px solid #fff;
+  padding-top: 20px;
 }
 
 .about .content-wrapper {
@@ -552,7 +554,7 @@ button:hover {
   align-items: center;
   flex-flow: row wrap;
   background: #344a5f;
-  padding: 10px 0;
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -581,7 +583,7 @@ button:hover {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   padding: 25px;
-  margin: 0 25px;
+  margin: 20px 25px;
   width: 100%;
 }
 
@@ -814,6 +816,10 @@ nav a {
   padding-left: 40px;
  }
 
+ .portfolio h2 {
+   margin-bottom: 0;
+ }
+
  .project {
    padding: 50px;
    margin: 50px;
@@ -848,7 +854,7 @@ nav a {
 
  .form {
    padding: 50px;
-   margin: 0 50px;
+   margin: 20px 50px;
    width: 40%;
  }
 
