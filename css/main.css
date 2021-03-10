@@ -927,57 +927,56 @@ nav a {
   font-size: 4em;
  }
 
- .heart {
-   display: flex;
-   flex-flow: row wrap;
- }
+.heart {
+  display: flex;
+  flex-flow: row wrap;
+}
 
- .election {
-   display: flex;
-   flex-flow: row-reverse;
- }
+.election {
+  display: flex;
+  flex-flow: row-reverse;
+}
 
- .unplugged {
-   display: flex;
-   flex-flow: row wrap;
- }
+.unplugged {
+  display: flex;
+  flex-flow: row wrap;
+}
 
- .magic {
-   display: flex;
-   flex-flow: row-reverse;
- }
+.magic {
+  display: flex;
+  flex-flow: row-reverse;
+}
 
- .project img {
-   width: 50%;
- }
+.project img {
+  width: 50%;
+}
 
- .project-body {
-   width: 50%;
- }
+.project-body {
+  width: 50%;
+}
 
- .tech-description p {
-   padding: 0 70px;
-   word-spacing: 0.3em;
- }
+.tech-description p {
+  padding: 0 70px;
+  word-spacing: 0.3em;
+}
 
- .about figure {
-   border-right: 2px solid #fff;
-   width: 40%;
- }
+.about figure {
+  border-right: 2px solid #fff;
+  width: 40%;
+}
 
- .about-description {
-   text-align: left;
-   width: 40%;
- }
+.about-description {
+  text-align: left;
+  width: 40%;
+}
 
- .about-description p {
-   font-size: 1.3em;
- }
+.about-description p {
+  font-size: 1.3em;
+}
 
 .skills-item {
    width: 16%;
 }
-
 
 }
 
