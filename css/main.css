@@ -398,6 +398,7 @@ nav {
 }
 
 .tech-description p {
+  font-size: 1.25em;
   line-height: 1.5;
   padding: 0 20px;
 }
@@ -949,6 +950,7 @@ nav a {
 
  .tech-description p {
    padding: 0 70px;
+   word-spacing: 0.3em;
  }
 
  .about figure {
