@@ -639,6 +639,13 @@ input[type=message] {
   width: 100%;
 }
 
+::placeholder {
+  color: #fff;
+  font-size: 0.8em;
+  opacity: 1;
+  text-transform: uppercase;
+}
+
 .form button {
   background: #5c93ce;
   border: 1px solid #fff;
@@ -971,9 +978,6 @@ nav a {
    width: 16%;
 }
 
-.form button {
-  width: 50%;
-}
 
 }
 
