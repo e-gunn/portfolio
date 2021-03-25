@@ -96,13 +96,12 @@ link to the color source
 converter: https://www.rapidtables.com/convert/color/hex-to-rgb.html
 */
 
-
 html {
   font-size: 16px;
 }
 
 body {
-  font-family: 'News Cycle', sans-serif;
+  font-family: "News Cycle", sans-serif;
   font-size: 1em;
   font-weight: bold;
 }
@@ -120,7 +119,7 @@ a {
 
 h1 {
   color: #344a5f;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 2.25em;
   font-weight: 500;
   margin: 0;
@@ -129,7 +128,7 @@ h1 {
 h2,
 h3 {
   color: #344a5f;
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 1.875em;
   font-weight: 500;
   margin: 60px 0 15px 0;
@@ -218,7 +217,7 @@ nav {
 }
 
 .logo h6 {
-  font-family: 'News Cycle' sans-serif;
+  font-family: "News Cycle" sans-serif;
   font-size: 0.4em;
   margin: 0;
   text-transform: uppercase;
@@ -272,13 +271,13 @@ nav {
 }
 
 .hamburger-btn i {
-    padding: 20px;
-    transition: opacity 1s ease-in;
-  }
+  padding: 20px;
+  transition: opacity 1s ease-in;
+}
 
 .hamburger-btn i:hover {
-   opacity: 0.7;
-  }
+  opacity: 0.7;
+}
 
 #check {
   display: none;
@@ -300,7 +299,7 @@ nav {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
-  min-height:500px;
+  min-height: 500px;
   width: 100%;
 }
 
@@ -462,6 +461,7 @@ button:hover {
   align-items: center;
   flex-flow: row wrap;
   color: #344a5f;
+  padding-top: 15px;
   width: 50%;
 }
 
@@ -476,7 +476,7 @@ button:hover {
   text-align: center;
 }
 
-.jquery-logo {
+.icon {
   padding: 0 50px;
   max-width: 60px;
 }
@@ -612,8 +612,8 @@ button:hover {
   color: #fff;
 }
 
-input[type=text],
-input[type=message] {
+input[type="text"],
+input[type="message"] {
   background: #344a5f;
   border: 1px solid #fff;
   border-radius: 5px;
@@ -704,7 +704,7 @@ footer .content-wrapper {
 }
 
 .social-icons i:hover {
-    color: #5c93ce;
+  color: #5c93ce;
 }
 
 .copyright {
@@ -808,176 +808,174 @@ footer .content-wrapper {
    ========================================================================== */
 
 @media only screen and (min-width: 768px) {
-     /* tablet styles here */
+  /* tablet styles here */
 
-nav a {
- padding: 0 20px;
-}
+  nav a {
+    padding: 0 20px;
+  }
 
-.hero-area h1 {
-  font-size: 4em;
-  padding-left: 40px;
- }
+  .hero-area h1 {
+    font-size: 4em;
+    padding-left: 40px;
+  }
 
-.hero-area p {
-  font-size: 3em;
-  padding-left: 40px;
- }
+  .hero-area p {
+    font-size: 3em;
+    padding-left: 40px;
+  }
 
- .portfolio h2 {
-   margin-bottom: 0;
- }
+  .portfolio h2 {
+    margin-bottom: 0;
+  }
 
- .project {
-   padding: 50px;
-   margin: 50px;
- }
+  .project {
+    padding: 50px;
+    margin: 50px;
+  }
 
- .tech-description p {
-   padding: 0 50px;
- }
+  .tech-description p {
+    padding: 0 50px;
+  }
 
- .project-btn button {
-   width: 45%;
- }
+  .project-btn button {
+    width: 45%;
+  }
 
- .skills-item {
-   margin-bottom: 20px;
-   width: 33%;
- }
+  .skills-item {
+    margin-bottom: 20px;
+    width: 33%;
+  }
 
- .skills-item-description {
-   padding: 0 40px;
- }
+  .skills-item-description {
+    padding: 0 40px;
+  }
 
- .about-description {
-   padding: 0 50px;
-   text-align: center;
- }
+  .about-description {
+    padding: 0 50px;
+    text-align: center;
+  }
 
- .about-description p {
-   font-size: 1.2em;
-   line-height: 1.5;
- }
+  .about-description p {
+    font-size: 1.2em;
+    line-height: 1.5;
+  }
 
- .form {
-   padding: 50px;
-   margin: 20px 50px;
-   width: 40%;
- }
+  .form {
+    padding: 50px;
+    margin: 20px 50px;
+    width: 40%;
+  }
 
- .social-icons {
-   width: 60%;
- }
-
+  .social-icons {
+    width: 60%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
-     /* desktop styles here */
+  /* desktop styles here */
 
-.content-wrapper {
-  max-width: 1400px;
-}
+  .content-wrapper {
+    max-width: 1400px;
+  }
 
-.logo {
-  width: 50%;
-}
+  .logo {
+    width: 50%;
+  }
 
-.logo h6 {
-  font-size: 0.5em;
-}
+  .logo h6 {
+    font-size: 0.5em;
+  }
 
-.hamburger-btn {
-  display: none;
-}
+  .hamburger-btn {
+    display: none;
+  }
 
-.nav-list {
-  position: relative;
-  height: 45px;
-  top: 0;
-  background: none;
-  float: right;
-  text-align: right;
-  margin-right: 25px;
-  transition: none;
- }
+  .nav-list {
+    position: relative;
+    height: 45px;
+    top: 0;
+    background: none;
+    float: right;
+    text-align: right;
+    margin-right: 25px;
+    transition: none;
+  }
 
-.nav-list li {
-  display: inline-block;
-  opacity: 1;
-  line-height: 75px;
-  margin: 0 20px;
-  transition: none;
- }
+  .nav-list li {
+    display: inline-block;
+    opacity: 1;
+    line-height: 75px;
+    margin: 0 20px;
+    transition: none;
+  }
 
- .nav-list li a {
-   color: #344a5f;
- }
+  .nav-list li a {
+    color: #344a5f;
+  }
 
- .nav-list li a.active,
- .nav-list li a:hover {
-   color: #5c93ce;
- }
+  .nav-list li a.active,
+  .nav-list li a:hover {
+    color: #5c93ce;
+  }
 
-.hero-area h1 {
-  font-size: 5em;
- }
+  .hero-area h1 {
+    font-size: 5em;
+  }
 
-.hero-area p {
-  font-size: 4em;
- }
+  .hero-area p {
+    font-size: 4em;
+  }
 
-.heart {
-  display: flex;
-  flex-flow: row wrap;
-}
+  .heart {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-.election {
-  display: flex;
-  flex-flow: row-reverse;
-}
+  .election {
+    display: flex;
+    flex-flow: row-reverse;
+  }
 
-.unplugged {
-  display: flex;
-  flex-flow: row wrap;
-}
+  .unplugged {
+    display: flex;
+    flex-flow: row wrap;
+  }
 
-.magic {
-  display: flex;
-  flex-flow: row-reverse;
-}
+  .magic {
+    display: flex;
+    flex-flow: row-reverse;
+  }
 
-.project img {
-  width: 50%;
-}
+  .project img {
+    width: 50%;
+  }
 
-.project-body {
-  width: 50%;
-}
+  .project-body {
+    width: 50%;
+  }
 
-.tech-description p {
-  padding: 0 70px;
-  word-spacing: 0.3em;
-}
+  .tech-description p {
+    padding: 0 70px;
+    word-spacing: 0.3em;
+  }
 
-.about figure {
-  border-right: 2px solid #fff;
-  width: 40%;
-}
+  .about figure {
+    border-right: 2px solid #fff;
+    width: 40%;
+  }
 
-.about-description {
-  text-align: left;
-  width: 40%;
-}
+  .about-description {
+    text-align: left;
+    width: 40%;
+  }
 
-.about-description p {
-  font-size: 1.3em;
-}
+  .about-description p {
+    font-size: 1.3em;
+  }
 
-.skills-item {
-   width: 16%;
-}
-
+  .skills-item {
+    width: 20%;
+  }
 }
 
 /* ==========================================================================
