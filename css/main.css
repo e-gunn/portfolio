@@ -947,6 +947,8 @@ footer .content-wrapper {
   }
 
   .project img {
+    height: 95%;
+    padding-top: 60px;
     width: 50%;
   }
 
