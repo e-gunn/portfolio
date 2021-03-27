@@ -841,6 +841,10 @@ footer .content-wrapper {
     width: 45%;
   }
 
+  .skills .content-wrapper {
+    max-width: 600px;
+  }
+
   .skills-item {
     margin-bottom: 20px;
     width: 33%;
@@ -959,6 +963,10 @@ footer .content-wrapper {
   .tech-description p {
     padding: 0 70px;
     word-spacing: 0.3em;
+  }
+
+  .skills .content-wrapper {
+    max-width: 1200px;
   }
 
   .about figure {
