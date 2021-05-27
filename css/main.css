@@ -931,22 +931,32 @@ footer .content-wrapper {
     font-size: 4em;
   }
 
-  .heart {
+  .notes {
     display: flex;
     flex-flow: row wrap;
   }
 
-  .election {
+  .guess {
     display: flex;
     flex-flow: row-reverse;
   }
 
-  .unplugged {
+  .repo {
     display: flex;
     flex-flow: row wrap;
   }
 
-  .magic {
+  .heart {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .election {
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .unplugged {
     display: flex;
     flex-flow: row-reverse;
   }
