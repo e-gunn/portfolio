@@ -413,14 +413,11 @@ nav {
   background-color: #5c93ce;
   border-radius: 66px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  color: #fff;
   padding: 10px;
   margin: 10px;
   text-align: center;
   width: 100%;
-}
-
-button a {
-  color: #fff;
 }
 
 button i {
@@ -430,6 +427,7 @@ button i {
 button:hover {
   background: #344a5f;
   transition: 0.5s;
+  cursor: pointer;
 }
 
 .skills {
