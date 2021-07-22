@@ -420,6 +420,10 @@ nav {
   width: 100%;
 }
 
+button a {
+  color: #fff;
+}
+
 button i {
   padding: 5px;
 }
